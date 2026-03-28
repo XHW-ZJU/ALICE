@@ -5,7 +5,7 @@
 | Item | Content |
 |------|---------|
 | **Storage Location** | Google Drive |
-| **Link** | [Click to Access](https://drive.google.com/drive/folders/14vysStfGDoim2QhqTBJasWa5I230D9jN) |
+| **Link** | [Click to Access](https://drive.google.com/file/d/1hJnTMyI4Bt_AF98fZustmeMhZQzbsC7v/view?usp=drive_link) |
 | **Access Permissions** | To be configured (please fill in according to actual situation) |
 
 ---
