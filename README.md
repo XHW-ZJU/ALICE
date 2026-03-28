@@ -1,6 +1,6 @@
 # Mapping AAV capsid sequences to functions through function-guided *in silico* evolution
 
-This repository contains the implementation of the **ALICE** and **ALICE-X** architectures, along with all supporting scripts for data analysis and sequencing data processing. The structure is organized as follows:
+This repository contains the implementation of the **ALICE** and **ALICE-X** architectures, along with all supporting scripts for data analysis. The structure is organized as follows:
 
 - **`./alice/`**  
   Contains the implementation of the **ALICE** framework.  
@@ -11,9 +11,6 @@ This repository contains the implementation of the **ALICE** and **ALICE-X** arc
 
 - **`./code_for_analysis/`** and **`./alice/statistical_code/`**  
   Provide scripts for downstream data analysis, statistical evaluation, and visualization of results.
-
-- **`./datasets_lib_construction/`**  
-  Includes code for preprocessing and handling raw sequencing data, covering library construction and dataset preparation.
 
 ---
 
