@@ -1,0 +1,57 @@
+{
+  "model_types": {
+    "LightGBM_38": "LGBModel",
+    "WeightedEnsemble_L2": "WeightedEnsembleModel"
+  },
+  "model_performance": {
+    "LightGBM_38": 0.7982315678214482,
+    "WeightedEnsemble_L2": 0.7982315678214482
+  },
+  "model_best": "WeightedEnsemble_L2",
+  "model_paths": {
+    "LightGBM_38": [
+      "LightGBM_38"
+    ],
+    "WeightedEnsemble_L2": [
+      "WeightedEnsemble_L2"
+    ]
+  },
+  "model_fit_times": {
+    "LightGBM_38": 7.075220823287964,
+    "WeightedEnsemble_L2": 0.017797470092773438
+  },
+  "model_pred_times": {
+    "LightGBM_38": 0.010002374649047852,
+    "WeightedEnsemble_L2": 0.0
+  },
+  "num_bag_folds": 0,
+  "max_stack_level": 2,
+  "model_hyperparams": {
+    "LightGBM_38": {
+      "learning_rate": 0.03892781678362731,
+      "num_boost_round": 2555,
+      "num_leaves": 245,
+      "max_depth": 11,
+      "bagging_fraction": 0.9061479475974636,
+      "bagging_freq": 1,
+      "feature_fraction": 0.8130718345632117,
+      "min_data_in_leaf": 63,
+      "min_sum_hessian_in_leaf": 4.351613409319798,
+      "lambda_l1": 0.0007818664699114342,
+      "lambda_l2": 0.0056011991475211345,
+      "objective": "regression",
+      "metric": "rmse"
+    },
+    "WeightedEnsemble_L2": {
+      "use_orig_features": false,
+      "valid_stacker": true,
+      "max_base_models": 0,
+      "max_base_models_per_type": "auto",
+      "save_bag_folds": true,
+      "stratify": "auto",
+      "bin": "auto",
+      "n_bins": null
+    }
+  },
+  "leaderboard": "                 model  score_val  ... can_infer  fit_order\n0  WeightedEnsemble_L2   0.798232  ...      True          2\n1          LightGBM_38   0.798232  ...      True          1\n\n[2 rows x 10 columns]"
+}
