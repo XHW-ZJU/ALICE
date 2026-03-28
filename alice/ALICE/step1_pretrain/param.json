@@ -1,0 +1,7 @@
+{
+  "hidden size": 4096,
+  "vocab": 22,
+  "dropout": 0.1,
+  "attn heads": 32,
+  "n layers": 1
+}
